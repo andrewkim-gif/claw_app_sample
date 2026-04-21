@@ -1,0 +1,17 @@
+{
+  "id": "com.crossclaw.sample-counter",
+  "name": "Sample Counter",
+  "version": "1.0.0",
+  "description": "CrossClaw OS 샘플 앱 — 카운터 + SDK 데모",
+  "entry": "index.html",
+  "icon": "icon.png",
+  "permissions": ["storage", "notifications"],
+  "author": {
+    "name": "CrossClaw Team",
+    "github": "crossclaw"
+  },
+  "categories": ["utilities", "demo"],
+  "tags": ["sample", "counter", "sdk-demo"],
+  "defaultSize": { "width": 400, "height": 500 },
+  "singleInstance": true
+}

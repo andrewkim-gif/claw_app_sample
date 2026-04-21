@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sample Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <div class="header">
+      <h1>🐾 Sample Counter</h1>
+      <p class="subtitle">CrossClaw SDK Demo</p>
+    </div>
+
+    <div class="counter-section">
+      <span id="count" class="count-display">0</span>
+      <div class="button-group">
+        <button id="btn-dec" class="btn btn-secondary">−</button>
+        <button id="btn-reset" class="btn btn-ghost">Reset</button>
+        <button id="btn-inc" class="btn btn-primary">+</button>
+      </div>
+    </div>
+
+    <div class="info-section">
+      <p id="visits" class="visits">Visits: loading...</p>
+      <p id="status" class="status">Connecting to CrossClaw...</p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
