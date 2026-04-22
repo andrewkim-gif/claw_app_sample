@@ -3,6 +3,7 @@
   "name": "Sample Counter",
   "version": "1.0.0",
   "description": "CrossClaw OS 샘플 앱 — 카운터 + SDK 데모",
+  "url": "https://andrewkim-gif.github.io/claw_app_sample/",
   "entry": "index.html",
   "icon": "icon.png",
   "permissions": ["storage", "notifications"],
