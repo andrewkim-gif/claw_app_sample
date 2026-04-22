@@ -10,7 +10,8 @@
     "name": "CrossClaw Team",
     "github": "crossclaw"
   },
-  "categories": ["utilities", "demo"],
+  "category": "utility",
+  "categories": ["utility", "demo"],
   "tags": ["sample", "counter", "sdk-demo"],
   "defaultSize": { "width": 400, "height": 500 },
   "singleInstance": true
